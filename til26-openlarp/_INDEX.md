@@ -4,9 +4,9 @@
 
 **Complete file directory for TIL-26 Documentation Hub**
 
-[![Total Files](https://img.shields.io/badge/Files-23-brightgreen?style=flat-square)](.)
-[![Total Size](https://img.shields.io/badge/Size-261%20KB-blue?style=flat-square)](.)
-[![Last Updated](https://img.shields.io/badge/Updated-2026--05--19-blue?style=flat-square)](.)
+[![Total Files](https://img.shields.io/badge/Files-23-brightgreen?style=flat-square)](./..)
+[![Total Size](https://img.shields.io/badge/Size-261%20KB-blue?style=flat-square)](./..)
+[![Last Updated](https://img.shields.io/badge/Updated-2026--05--19-blue?style=flat-square)](./..)
 
 [⚡ Quick Access](#-quick-access) • [📚 All Files](#-all-files) • [🎯 By Purpose](#-organized-by-purpose)
 

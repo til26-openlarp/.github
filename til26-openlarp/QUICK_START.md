@@ -47,7 +47,7 @@ python -c "import torch; print('✓ Ready')"
 
 - Full setup: Read [SETUP.md](./SETUP.md)
 - All challenges: Read [CHALLENGES.md](./CHALLENGES.md)
-- Challenge details: See [CHALLENGES/](./CHALLENGES/) folder
+- Challenge details: See [CHALLENGES/](./CHALLENGES) folder
 - Submission: Read [SUBMISSION.md](./SUBMISSION.md)
 
 **Time spent so far: ~5 minutes. You're ready to code!**

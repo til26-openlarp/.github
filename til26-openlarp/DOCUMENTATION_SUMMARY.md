@@ -7,32 +7,32 @@
 
 ### New Documentation Files Created
 
-1. **[GETTING_STARTED.md](til26-openlarp/GETTING_STARTED.md)** (NEW)
+1. **[GETTING_STARTED.md](GETTING_STARTED.md)** (NEW)
    - Complete project overview and quick start guide
    - Challenge-by-challenge setup instructions
    - Repository structure explanation
    - Common workflows and troubleshooting
 
-2. **[VERIFY_SETUP.md](til26-openlarp/VERIFY_SETUP.md)** (NEW)
+2. **[VERIFY_SETUP.md](VERIFY_SETUP.md)** (NEW)
    - Step-by-step setup validation checklist
    - Dependency verification for all challenges
    - Quick tests for each component
    - Troubleshooting guide
 
-3. **[cv/submit/README.md](cv/submit/README.md)** (NEW)
+3. **[cv/submit/README.md](../cv/submit/README.md)** (NEW)
    - FastAPI server setup and deployment
    - Model manager selection (YOLO, RT-DETR, RF-DETR)
    - Docker build and run instructions
    - API contract and troubleshooting
 
-4. **[cv/train/README.md](cv/train/README.md)** (NEW)
+4. **[cv/train/README.md](../cv/train/README.md)** (NEW)
    - Complete training pipeline guide
    - Dataset preparation instructions
    - Model comparison and selection
    - Configuration options and training execution
    - Output structure and evaluation
 
-5. **[AUDIT_REPORT.md](til26-openlarp/AUDIT_REPORT.md)** (NEW)
+5. **[AUDIT_REPORT.md](AUDIT_REPORT.md)** (NEW)
    - Comprehensive repository audit
    - Documentation status for all directories
    - Git submodule status and health

@@ -74,9 +74,9 @@ python benchmarks/bench_diag.py  # Run a single-game benchmark
 ```
 
 📖 **Docs:**
-- [ae/README.md](ae/README.md) — Challenge overview and interface
-- [ae/AGENTS.md](ae/AGENTS.md) — Environment reference and agent guide
-- [ae/submit/README.md](ae/submit/README.md) — Submission server setup
+- [ae/README.md](../ae/README.md) — Challenge overview and interface
+- [ae/AGENTS.md](../ae/AGENTS.md) — Environment reference and agent guide
+- [ae/submit/README.md](../ae/submit/README.md) — Submission server setup
 
 **Submission server port:** 5003
 
@@ -93,10 +93,10 @@ python train/train_yolo.py --config train/config/yolov8l-v3.yaml
 ```
 
 📖 **Docs:**
-- [cv/README.md](cv/README.md) — Challenge overview and interface
-- [cv/AGENTS.md](cv/AGENTS.md) — Training guide with model details
-- [cv/submit/README.md](cv/submit/README.md) — Submission service setup
-- [cv/train/README.md](cv/train/README.md) — Training pipeline explained
+- [cv/README.md](../cv/README.md) — Challenge overview and interface
+- [cv/AGENTS.md](../cv/AGENTS.md) — Training guide with model details
+- [cv/submit/README.md](../cv/submit/README.md) — Submission service setup
+- [cv/train/README.md](../cv/train/README.md) — Training pipeline explained
 
 **Submission server port:** 5002
 
@@ -115,10 +115,10 @@ python train/train.py  # Or use your own training script
 ```
 
 📖 **Docs:**
-- [nlp/README.md](nlp/README.md) — Challenge overview and interface
-- [nlp/AGENTS.md](nlp/AGENTS.md) — RAG system development guide
-- [nlp/submit/README.md](nlp/submit/README.md) — Submission service setup
-- [nlp/train/README.md](nlp/train/README.md) — Training pipeline
+- [nlp/README.md](../nlp/README.md) — Challenge overview and interface
+- [nlp/AGENTS.md](../nlp/AGENTS.md) — RAG system development guide
+- [nlp/submit/README.md](../nlp/submit/README.md) — Submission service setup
+- [nlp/train/README.md](../nlp/train/README.md) — Training pipeline
 
 **Submission server port:** 5004
 
@@ -135,7 +135,7 @@ pip install -r requirements-dev.txt
 ```
 
 📖 **Docs:**
-- [til-26-openlarp/README.md](til-26-openlarp/README.md) — Integration guide
+- [til-26-openlarp/README.md](../til-26-openlarp/README.md) — Integration guide
 
 ---
 

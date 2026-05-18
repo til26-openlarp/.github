@@ -231,8 +231,8 @@ External documentation, tools, and references for TIL-26.
 ## Quick Links
 
 **Inside This Repo:**
-- [Main README](../README.md)
-- [Getting Started](../GETTING_STARTED.md)
+- [Main README](../../README.md)
+- [Getting Started](../../GETTING_STARTED.md)
 - [Setup Guide](./SETUP.md)
 - [Verification Checklist](./VERIFY.md)
 
