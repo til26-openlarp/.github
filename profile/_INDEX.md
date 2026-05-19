@@ -1,313 +1,341 @@
-# 📑 Documentation Index
+# Documentation Navigation Guide
 
-<div align="center">
+<style>
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.section { animation: fadeIn 0.8s ease-in; }
+</style>
 
-**Complete file directory for TIL-26 Documentation Hub**
-
-[![Total Files](https://img.shields.io/badge/Files-23-brightgreen?style=flat-square)](./..)
-[![Total Size](https://img.shields.io/badge/Size-261%20KB-blue?style=flat-square)](./..)
-[![Last Updated](https://img.shields.io/badge/Updated-2026--05--19-blue?style=flat-square)](./..)
-
-[⚡ Quick Access](#-quick-access) • [📚 All Files](#-all-files) • [🎯 By Purpose](#-organized-by-purpose)
-
-</div>
+Complete guide to all 23 documentation files. Use this to find what your team needs, when you need it.
 
 ---
 
-## ⚡ Quick Access
+## By Competition Phase
 
-**Fastest ways to what you need:**
+### Phase 1: Team Mobilization
 
-<table>
-<tr>
-<td width="25%" align="center">
+Your team needs to get ready. These files help with setup and alignment.
 
-### ⏱️ 5-Minute Setup
-[QUICK_START.md](./QUICK_START.md)
+| File | Purpose | Time | Priority |
+|------|---------|------|----------|
+| [QUICK_START.md](../QUICK_START.md) | 5-minute setup for everyone | 5 min | Critical |
+| [SETUP.md](../SETUP.md) | Detailed environment configuration | 15 min | Critical |
+| [VERIFY.md](../VERIFY.md) | Validate everything works | 10 min | Critical |
 
-Get running instantly
+### Phase 2: Challenge Selection
 
-</td>
-<td width="25%" align="center">
+Your team chooses what to build. These files explain each option.
 
-### 🎯 Pick Challenge
-[CHALLENGES.md](./CHALLENGES.md)
+| File | Purpose | Time | Priority |
+|------|---------|------|----------|
+| [CHALLENGES.md](../CHALLENGES.md) | Overview all four challenges | 10 min | Critical |
+| [CHALLENGES/ae.md](../CHALLENGES/ae.md) | Agent Environment details | 10 min | Conditional |
+| [CHALLENGES/cv.md](../CHALLENGES/cv.md) | Computer Vision details | 10 min | Conditional |
+| [CHALLENGES/nlp.md](../CHALLENGES/nlp.md) | NLP details | 10 min | Conditional |
+| [CHALLENGES/finals.md](../CHALLENGES/finals.md) | Finals integration | 10 min | Optional |
 
-Understand your options
+### Phase 3: Development
 
-</td>
-<td width="25%" align="center">
+Your team builds solutions. These are daily references.
 
-### 💻 Start Coding
-[DEVELOPMENT.md](./DEVELOPMENT.md)
+| File | Purpose | Time | Priority |
+|------|---------|------|----------|
+| [DEVELOPMENT.md](../DEVELOPMENT.md) | Workflow and best practices | 15 min | Critical |
+| [ARCHITECTURE.md](../ARCHITECTURE.md) | Repository structure | 10 min | Important |
+| [API.md](../API.md) | API specifications | 20 min | Critical |
+| [GIT_GUIDE.md](../GIT_GUIDE.md) | Coordinating with Git | 10 min | Important |
 
-Best practices guide
+### Phase 4: Optimization
 
-</td>
-<td width="25%" align="center">
+Your team improves scores. These files help squeeze out gains.
 
-### 🆘 Need Help?
-[TROUBLESHOOTING.md](./TROUBLESHOOTING.md)
+| File | Purpose | Time | Priority |
+|------|---------|------|----------|
+| [PERFORMANCE.md](../PERFORMANCE.md) | Optimization strategies | 15 min | Important |
 
-Problem solutions
+### Phase 5: Submission
 
-</td>
-</tr>
-</table>
+Your team gets work deployed. These files guide final steps.
 
----
+| File | Purpose | Time | Priority |
+|------|---------|------|----------|
+| [SUBMISSION.md](../SUBMISSION.md) | Submission process | 10 min | Critical |
+| [DOCKER.md](../DOCKER.md) | Container deployment | 15 min | Critical |
 
-## 🎯 Organized By Purpose
+### Support (Any Phase)
 
-### 🚀 Getting Started (New Users)
+When your team needs help.
 
-```
-1. README.md                    ← Hub overview
-2. QUICK_START.md              ← 5-minute setup
-3. SETUP.md                    ← Detailed setup
-4. VERIFY.md                   ← Validate your work
-5. CHALLENGES.md               ← Choose a challenge
-```
-
-### 🎓 Learning (Choose a Challenge)
-
-```
-6. CHALLENGES/<choice>.md       ← Your challenge guide
-   ├── ae.md                   (Agent Environment)
-   ├── cv.md                   (Computer Vision)
-   ├── nlp.md                  (NLP)
-   └── finals.md               (Finals Integration)
-```
-
-### 💼 Development (Building Solutions)
-
-```
-7. DEVELOPMENT.md              ← Workflow & best practices
-8. ARCHITECTURE.md             ← Repository structure
-9. DOCKER.md                   ← Container deployment
-10. GIT_GUIDE.md               ← Git workflow
-```
-
-### 🚢 Submission (Going Live)
-
-```
-11. SUBMISSION.md              ← Submission process
-12. API.md                     ← API specifications
-```
-
-### ⚙️ Advanced (Optimization & Help)
-
-```
-13. PERFORMANCE.md             ← Optimization techniques
-14. TROUBLESHOOTING.md         ← Problem solving
-15. RESOURCES.md               ← External links
-```
+| File | Purpose | Time | Priority |
+|------|---------|------|----------|
+| [TROUBLESHOOTING.md](../TROUBLESHOOTING.md) | Problem solving | Variable | As needed |
+| [RESOURCES.md](../RESOURCES.md) | External references | 5 min | As needed |
 
 ---
 
-## 📚 All Files
+## All 23 Files
 
-### Main Documentation (9 files)
+### Core Documentation (9 files)
 
-| # | 📄 File | Purpose | ⏱️ Time | 📊 Size |
-|---|---------|---------|--------|---------|
-| 1 | [README.md](./README.md) | 🏠 Hub overview & navigation | 5 min | 6.8 KB |
-| 2 | [QUICK_START.md](./QUICK_START.md) | ⚡ 5-minute setup | 2 min | 1.3 KB |
-| 3 | [SETUP.md](./SETUP.md) | 📦 Detailed setup | 10 min | 4.4 KB |
-| 4 | [VERIFY.md](./VERIFY.md) | ✅ Validation | 10 min | 4.0 KB |
-| 5 | [CHALLENGES.md](./CHALLENGES.md) | 🎯 All challenges | 10 min | 6.4 KB |
-| 6 | [DEVELOPMENT.md](./DEVELOPMENT.md) | 💻 Development workflow | 15 min | 7.6 KB |
-| 7 | [SUBMISSION.md](./SUBMISSION.md) | 🚢 Submission guide | 10 min | 7.1 KB |
-| 8 | [ARCHITECTURE.md](./ARCHITECTURE.md) | 🏗️ Repository structure | 10 min | 11.0 KB |
-| 9 | [API.md](./API.md) | 🔌 API specifications | 20 min | 7.4 KB |
+**Getting Started & Overview:**
+1. [README.md](./README.md) — Team journey guide (start here)
+2. [QUICK_START.md](../QUICK_START.md) — 5-minute setup
+3. [SETUP.md](../SETUP.md) — Detailed setup
+4. [VERIFY.md](../VERIFY.md) — Setup validation
+
+**Challenge Information:**
+5. [CHALLENGES.md](../CHALLENGES.md) — All challenges overview
+
+**Development Reference:**
+6. [DEVELOPMENT.md](../DEVELOPMENT.md) — Workflow guide
+7. [ARCHITECTURE.md](../ARCHITECTURE.md) — Repository structure
+8. [API.md](../API.md) — API specifications
+9. [SUBMISSION.md](../SUBMISSION.md) — Submission guide
 
 ### Advanced Topics (5 files)
 
-| # | 📄 File | Purpose | ⏱️ Time | 📊 Size |
-|---|---------|---------|--------|---------|
-| 10 | [DOCKER.md](./DOCKER.md) | 🐳 Docker deployment | 15 min | 7.6 KB |
-| 11 | [GIT_GUIDE.md](./GIT_GUIDE.md) | 🔀 Git management | 10 min | 7.9 KB |
-| 12 | [TROUBLESHOOTING.md](./TROUBLESHOOTING.md) | 🆘 Problem solving | Variable | 8.4 KB |
-| 13 | [PERFORMANCE.md](./PERFORMANCE.md) | ⚡ Optimization | 15 min | 8.6 KB |
-| 14 | [RESOURCES.md](./RESOURCES.md) | 🔗 External links | 5 min | 8.3 KB |
+10. [DOCKER.md](../DOCKER.md) — Container deployment
+11. [GIT_GUIDE.md](../GIT_GUIDE.md) — Git workflow
+12. [TROUBLESHOOTING.md](../TROUBLESHOOTING.md) — Problem solving
+13. [PERFORMANCE.md](../PERFORMANCE.md) — Optimization
+14. [RESOURCES.md](../RESOURCES.md) — External links
 
 ### Challenge Guides (4 files in CHALLENGES/)
 
-| # | 📄 File | Challenge | 🎯 Level | ⏱️ Time |
-|---|---------|-----------|----------|--------|
-| 15 | [ae.md](./CHALLENGES/ae.md) | 🤖 Agent Environment | 🟢 Easy | 10 min |
-| 16 | [cv.md](./CHALLENGES/cv.md) | 👁️ Computer Vision | 🟡 Medium | 10 min |
-| 17 | [nlp.md](./CHALLENGES/nlp.md) | 📚 NLP | 🔴 Hard | 10 min |
-| 18 | [finals.md](./CHALLENGES/finals.md) | 🏁 Finals | 🔴 Hard | 10 min |
+15. [CHALLENGES/ae.md](../CHALLENGES/ae.md) — Agent Environment
+16. [CHALLENGES/cv.md](../CHALLENGES/cv.md) — Computer Vision
+17. [CHALLENGES/nlp.md](../CHALLENGES/nlp.md) — NLP
+18. [CHALLENGES/finals.md](../CHALLENGES/finals.md) — Finals
 
-### Navigation & Support (4 files)
+### Supporting Files (4 files)
 
-| # | 📄 File | Purpose |
-|---|---------|---------|
-| 19 | [_INDEX.md](./_INDEX.md) | 📑 This file |
-| 20 | [GETTING_STARTED.md](./GETTING_STARTED.md) | 📖 Project overview |
-| 21 | [VERIFY_SETUP.md](./VERIFY_SETUP.md) | ✓ Setup validation |
-| 22 | [AUDIT_REPORT.md](./AUDIT_REPORT.md) | 📊 Initial audit |
-| 23 | [DOCUMENTATION_SUMMARY.md](./DOCUMENTATION_SUMMARY.md) | 📝 Change log |
+19. [_INDEX.md](./_INDEX.md) — This file
+20. [GETTING_STARTED.md](../GETTING_STARTED.md) — Extended guide
+21. [VERIFY_SETUP.md](../VERIFY_SETUP.md) — Setup checklist
+22. [AUDIT_REPORT.md](../AUDIT_REPORT.md) — Repository audit
+23. [DOCUMENTATION_SUMMARY.md](../DOCUMENTATION_SUMMARY.md) — Changes log
 
 ---
 
-## 🗺️ Recommended Reading Paths
+## Recommended Team Paths
 
-### 🟢 Path 1: New User (Complete)
-```
-START → README → QUICK_START → SETUP → VERIFY → 
-CHALLENGES → Challenge Guide → DEVELOPMENT → SUBMISSION
-```
-**⏱️ Total Time:** ~50 minutes  
-**📊 Files:** 9  
-**🎯 Result:** Ready to submit
+### Path A: New Team (Comprehensive)
 
-### 🟡 Path 2: Experienced Developer
-```
-START → QUICK_START → CHALLENGES → Challenge Guide → 
-DEVELOPMENT → SUBMISSION
-```
-**⏱️ Total Time:** ~30 minutes  
-**📊 Files:** 6  
-**🎯 Result:** Ready to code
+Your team is new to the competition. Follow this sequence.
 
-### 🔴 Path 3: Expert/Power User
 ```
-CHALLENGES → Challenge Guide → Code → SUBMISSION
+Week 1:
+  1. README.md (understand competition)
+  2. QUICK_START.md (get running)
+  3. SETUP.md (detailed setup)
+  4. VERIFY.md (validate setup)
+  5. CHALLENGES.md (choose focus)
+  6. CHALLENGES/<choice>.md (deep dive)
+
+Week 2-3:
+  7. DEVELOPMENT.md (daily reference)
+  8. ARCHITECTURE.md (understand codebase)
+  9. API.md (implementation details)
+  10. GIT_GUIDE.md (team coordination)
+
+Week 3-4:
+  11. PERFORMANCE.md (optimize)
+  12. SUBMISSION.md (final steps)
+  13. TROUBLESHOOTING.md (as needed)
 ```
-**⏱️ Total Time:** ~15 minutes  
-**📊 Files:** 3  
-**🎯 Result:** Immediate
+
+**Total time:** 2-3 hours reading + ongoing development
+
+### Path B: Experienced Team (Fast Track)
+
+Your team has competition experience. Skip to essentials.
+
+```
+Week 1:
+  1. QUICK_START.md (quick setup)
+  2. CHALLENGES.md (choose focus)
+  3. CHALLENGES/<choice>.md (deep dive)
+
+Week 2-3:
+  4. API.md (implementation details)
+  5. DEVELOPMENT.md (workflow)
+
+Week 3-4:
+  6. PERFORMANCE.md (optimize)
+  7. SUBMISSION.md (final steps)
+```
+
+**Total time:** 1 hour reading + ongoing development
+
+### Path C: Expert Team (Minimal)
+
+Your team knows what you're doing.
+
+```
+Week 1:
+  1. CHALLENGES.md (quick overview)
+  2. CHALLENGES/<choice>.md (if new)
+
+Week 2-4:
+  3. API.md (reference)
+  4. SUBMISSION.md (when ready)
+```
+
+**Total time:** 30 minutes reading + ongoing development
 
 ---
 
-## 📊 Statistics
+## By Team Role
 
-<div align="center">
+### Tech Lead / Architecture
+
+Must read:
+- [ARCHITECTURE.md](../ARCHITECTURE.md)
+- [GIT_GUIDE.md](../GIT_GUIDE.md)
+- [DEVELOPMENT.md](../DEVELOPMENT.md)
+
+Reference:
+- [DOCKER.md](../DOCKER.md)
+- [PERFORMANCE.md](../PERFORMANCE.md)
+
+### Challenge Developer (AE)
+
+Must read:
+- [CHALLENGES/ae.md](../CHALLENGES/ae.md)
+- [DEVELOPMENT.md](../DEVELOPMENT.md)
+- [API.md](../API.md)
+
+Reference:
+- [PERFORMANCE.md](../PERFORMANCE.md)
+- [TROUBLESHOOTING.md](../TROUBLESHOOTING.md)
+
+### Challenge Developer (CV)
+
+Must read:
+- [CHALLENGES/cv.md](../CHALLENGES/cv.md)
+- [DEVELOPMENT.md](../DEVELOPMENT.md)
+- [API.md](../API.md)
+
+Reference:
+- [PERFORMANCE.md](../PERFORMANCE.md)
+- [RESOURCES.md](../RESOURCES.md)
+
+### Challenge Developer (NLP)
+
+Must read:
+- [CHALLENGES/nlp.md](../CHALLENGES/nlp.md)
+- [DEVELOPMENT.md](../DEVELOPMENT.md)
+- [API.md](../API.md)
+
+Reference:
+- [PERFORMANCE.md](../PERFORMANCE.md)
+- [RESOURCES.md](../RESOURCES.md)
+
+### DevOps / Deployment
+
+Must read:
+- [DOCKER.md](../DOCKER.md)
+- [SUBMISSION.md](../SUBMISSION.md)
+- [ARCHITECTURE.md](../ARCHITECTURE.md)
+
+Reference:
+- [GIT_GUIDE.md](../GIT_GUIDE.md)
+- [DEVELOPMENT.md](../DEVELOPMENT.md)
+
+---
+
+## File Statistics
 
 | Metric | Value |
 |--------|-------|
-| **📄 Total Files** | 23 |
-| **📦 Total Size** | 261 KB |
-| **📖 Total Reading Time** | ~170 min |
-| **⚡ Quick Start** | 5 min |
-| **💡 Code Examples** | 40+ |
-| **🆘 Tips & Tricks** | 100+ |
-| **🔗 External Resources** | 50+ |
-
-</div>
+| Total files | 23 |
+| Total size | 261 KB |
+| Reading time (complete) | 2.5 hours |
+| Code examples | 40+ |
+| External links | 50+ |
+| Troubleshooting tips | 100+ |
 
 ---
 
-## 🎯 Topic Coverage Map
+## Quick Reference Table
 
-| Topic | Primary File | Supporting Files |
-|-------|--------------|------------------|
-| 🚀 Quick Start | QUICK_START | README, SETUP |
-| 📦 Setup | SETUP | VERIFY, TROUBLESHOOTING |
-| 🎓 Challenges | CHALLENGES | CHALLENGES/* |
-| 💻 Development | DEVELOPMENT | ARCHITECTURE, GIT_GUIDE |
-| 🚢 Submission | SUBMISSION | DOCKER, API |
-| 🔌 APIs | API | CHALLENGES/* |
-| 🐳 Docker | DOCKER | SUBMISSION |
-| 🔀 Git | GIT_GUIDE | DEVELOPMENT |
-| ⚡ Performance | PERFORMANCE | CHALLENGES/* |
-| 🆘 Help | TROUBLESHOOTING | All files |
-| 🔗 Resources | RESOURCES | External links |
-
----
-
-## ⏰ Time Investment
-
-| Phase | Time | Files | Result |
-|-------|------|-------|--------|
-| **Setup** | 15 min | 3 | Environment ready |
-| **Learning** | 20 min | 2 | Understand challenge |
-| **Development** | 30 min | 3 | Solution working |
-| **Optimization** | 30 min | 2 | Better score |
-| **Submission** | 15 min | 2 | Code submitted |
-| **Total (optional)** | 110 min | 23 | Expert knowledge |
+| Need | File | Read Time |
+|------|------|-----------|
+| Get started fast | QUICK_START.md | 2 min |
+| Set up environment | SETUP.md | 15 min |
+| Understand challenges | CHALLENGES.md | 10 min |
+| Choose challenge | Challenge guide | 10 min |
+| Daily development | DEVELOPMENT.md | 15 min |
+| API details | API.md | 20 min |
+| Improve score | PERFORMANCE.md | 15 min |
+| Submit work | SUBMISSION.md | 10 min |
+| Troubleshoot | TROUBLESHOOTING.md | Variable |
+| Deploy container | DOCKER.md | 15 min |
+| Coordinate with Git | GIT_GUIDE.md | 10 min |
+| Find resources | RESOURCES.md | 5 min |
 
 ---
 
-## 🎨 File Features
+## Team Checklist
 
-### ✨ Design & Organization
-- Modern markdown formatting
-- Emoji-enhanced sections
-- Clear visual hierarchy
-- Easy navigation
-- Cross-linked content
+Before your team starts:
 
-### 📖 Content Quality
-- Comprehensive coverage
-- Practical examples
-- Step-by-step guides
-- Real-world scenarios
-- Best practices
+- [ ] All members read README.md
+- [ ] Environment set up (SETUP.md + VERIFY.md)
+- [ ] Challenge selected (CHALLENGES.md)
+- [ ] Roles assigned
+- [ ] Git workflow understood (GIT_GUIDE.md)
+- [ ] API specifications reviewed (API.md)
+- [ ] First submission plan documented
 
-### 🎯 User Experience
-- Multiple entry points
-- Clear recommendations
-- Progress tracking
-- Success metrics
-- Community links
+During competition:
 
----
+- [ ] Development workflow in place (DEVELOPMENT.md)
+- [ ] Regular commits with clear messages
+- [ ] Performance tracking started
+- [ ] Optimization strategy documented
+- [ ] Submission process understood (SUBMISSION.md)
 
-## 🚀 Jump To
+Final week:
 
-**Want to go directly to a specific topic?**
-
-### Setup & Installation
-- [QUICK_START.md](./QUICK_START.md) — Start here
-- [SETUP.md](./SETUP.md) — Detailed setup
-- [VERIFY.md](./VERIFY.md) — Validation
-
-### Challenges
-- [CHALLENGES.md](./CHALLENGES.md) — Overview
-- [CHALLENGES/ae.md](./CHALLENGES/ae.md) — Agent Environment
-- [CHALLENGES/cv.md](./CHALLENGES/cv.md) — Computer Vision
-- [CHALLENGES/nlp.md](./CHALLENGES/nlp.md) — NLP
-- [CHALLENGES/finals.md](./CHALLENGES/finals.md) — Finals
-
-### Development & Submission
-- [DEVELOPMENT.md](./DEVELOPMENT.md) — How to develop
-- [ARCHITECTURE.md](./ARCHITECTURE.md) — Repository structure
-- [SUBMISSION.md](./SUBMISSION.md) — How to submit
-- [DOCKER.md](./DOCKER.md) — Docker deployment
-
-### Advanced Topics
-- [API.md](./API.md) — API specifications
-- [PERFORMANCE.md](./PERFORMANCE.md) — Optimization
-- [TROUBLESHOOTING.md](./TROUBLESHOOTING.md) — Problem solving
-- [GIT_GUIDE.md](./GIT_GUIDE.md) — Git workflow
-- [RESOURCES.md](./RESOURCES.md) — External links
+- [ ] Final optimizations implemented (PERFORMANCE.md)
+- [ ] Docker containers tested (DOCKER.md)
+- [ ] Submissions validated (SUBMISSION.md)
+- [ ] Team ready for deadline
 
 ---
 
-## ✅ Before You Start
+## Where to Start
 
-- [ ] Read [README.md](./README.md)
-- [ ] Pick your path above
-- [ ] Follow the recommended files
-- [ ] Start with QUICK_START.md
-- [ ] Choose your challenge
-- [ ] Begin development!
+New team member just joined?
+
+1. Read [README.md](./README.md) first
+2. Follow [QUICK_START.md](../QUICK_START.md)
+3. Run [SETUP.md](../SETUP.md) steps
+4. Validate with [VERIFY.md](../VERIFY.md)
+5. Review challenge with team
+6. Read [API.md](../API.md) for technical details
+
+Want to contribute to a challenge?
+
+1. Read the challenge guide (CHALLENGES/*)
+2. Review [DEVELOPMENT.md](../DEVELOPMENT.md)
+3. Understand [GIT_GUIDE.md](../GIT_GUIDE.md)
+4. Check [API.md](../API.md) for specifications
+5. Start coding
+
+Need to optimize?
+
+1. Review [PERFORMANCE.md](../PERFORMANCE.md)
+2. Check challenge-specific optimization tips
+3. Profile your code
+4. Implement improvements
+5. Re-submit and track results
 
 ---
 
-<div align="center">
+**Your team has everything needed. Use this index to navigate efficiently.**
 
-### 🎯 Next Step
-
-**[Start with README.md →](./README.md)**
-
-*or jump directly to [QUICK_START.md](./QUICK_START.md)*
-
----
-
-**📑 Generated:** 2026-05-19 | **📊 Files:** 23 | **📦 Size:** 261 KB
-
-</div>
+Generated: 2026-05-19

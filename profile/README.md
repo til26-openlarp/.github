@@ -1,416 +1,361 @@
-# 🚀 TIL-26 Documentation Hub
+# TIL-26 Team Competition Journey
 
-> **Your complete guide to mastering the DSTA BrainHack TIL-AI 2026 competition**
+<style>
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+.header { animation: slideIn 0.6s ease-out; }
+.phase { animation: slideIn 0.6s ease-out; }
+.milestone { animation: pulse 2s infinite; }
+</style>
 
-<div align="center">
+<div class="header">
 
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square)
-![Files](https://img.shields.io/badge/Documentation-23%20Files-blue?style=flat-square)
-![Size](https://img.shields.io/badge/Size-261%20KB-blue?style=flat-square)
-![Updated](https://img.shields.io/badge/Updated-2026--05--19-blue?style=flat-square)
+## Your Path to Victory
 
-**[Quick Start](#-quick-start) • [Challenges](#-challenges) • [Resources](#-resources) • [API Docs](#-api) • [Help](#-troubleshooting)**
+This documentation guides your team through the DSTA BrainHack TIL-AI 2026 competition. From kickoff to final submission, everything you need to succeed is here.
+
+**Status:** Ready for Competition | **Files:** 23 | **Size:** 261 KB
 
 </div>
 
 ---
 
-## 📖 What is This?
+## The Stages of Your Journey
 
-Your **complete, modern documentation hub** for TIL-26. Everything you need to succeed in the competition — from first-time setup to final submission.
+### Stage 1: Team Mobilization (Week 1)
 
-### ✨ Key Highlights
+Before you can compete, your team needs to be ready. This is where you align on strategy and get your environment set up.
 
-- ⚡ **5-minute quick start** to get running
-- 🎯 **4 independent challenges** with detailed guides
-- 📚 **100+ pages** of comprehensive documentation
-- 🔧 **API specifications** for all services
-- 🐳 **Docker deployment** guides
-- 🎓 **Best practices** and optimization tips
-- 🆘 **Troubleshooting** solutions
-- 🔗 **External resources** and links
+**Key Milestones:**
+- Team understands the competition structure
+- Environment is properly configured
+- All tools are installed and verified
+- Team has selected its focus area(s)
 
----
+**Documentation:**
+- [QUICK_START.md](../QUICK_START.md) — Get your team up and running in 5 minutes
+- [SETUP.md](../SETUP.md) — Ensure everyone has the same environment
+- [VERIFY.md](../VERIFY.md) — Confirm everything works before you begin
 
-## 🎯 Quick Start
-
-**Get up and running in 5 minutes:**
-
-<table>
-<tr>
-<td width="50%">
-
-### 1️⃣ Clone & Setup
-```bash
-git clone <repo>
-cd TIL-26
-git submodule update --init
-python -m venv venv
-source venv/bin/activate
-```
-
-</td>
-<td width="50%">
-
-### 2️⃣ Install Dependencies
-```bash
-# Pick your challenge
-pip install -r ae/requirements.txt
-# OR
-pip install -r cv/train/requirements.txt
-# OR
-pip install -r nlp/train/requirements.txt
-```
-
-</td>
-</tr>
-</table>
-
-👉 **Full guide:** [QUICK_START.md](./QUICK_START.md)
+**Time Investment:** 30-45 minutes per team member
 
 ---
 
-## 🏆 Challenges
+### Stage 2: Challenge Selection & Deep Dive (Week 1-2)
 
-Choose your adventure. Each challenge is **independent** and **fully documented**.
+Your team needs to understand what you're building and why. This is the research and planning phase.
 
-### 🤖 Agent Environment (AE)
-> **Multi-agent RL • Bomberman • Port 5003**
+**Key Milestones:**
+- Team selects 1-2 challenges to focus on
+- Deep understanding of challenge requirements
+- Clear success metrics identified
+- Development strategy documented
 
-Train agents to play Bomberman using deep reinforcement learning. Visual, concrete, perfect for learning.
+**Documentation:**
+- [CHALLENGES.md](../CHALLENGES.md) — Overview of all four challenges
+- [CHALLENGES/ae.md](../CHALLENGES/ae.md) — Agent Environment details
+- [CHALLENGES/cv.md](../CHALLENGES/cv.md) — Computer Vision details
+- [CHALLENGES/nlp.md](../CHALLENGES/nlp.md) — NLP details
+- [CHALLENGES/finals.md](../CHALLENGES/finals.md) — Finals integration strategy
 
-- **Difficulty:** 🟢 Beginner
-- **Training Time:** Minutes to hours  
-- **Best For:** Learning RL concepts
-- **Quick Start:** `python ae/benchmarks/bench_diag.py`
-
-👉 [Read AE Guide](./CHALLENGES/ae.md)
-
----
-
-### 👁️ Computer Vision (CV)
-> **Object Detection • YOLOv8/DETR • Port 5002**
-
-Train object detection models on aerial imagery. Production-ready models, real-world applications.
-
-- **Difficulty:** 🟡 Intermediate
-- **Training Time:** Hours
-- **Best For:** CV/ML engineers
-- **Quick Start:** `python cv/train/train_yolo.py --config cv/train/config/yolov8l-v3.yaml`
-
-👉 [Read CV Guide](./CHALLENGES/cv.md)
+**Time Investment:** 45-60 minutes for team alignment
 
 ---
 
-### 📚 Natural Language Processing (NLP)
-> **RAG • Question Answering • Port 5004**
+### Stage 3: Development & Iteration (Week 2-3)
 
-Build a retrieval-augmented generation system to answer questions. Cutting-edge LLM techniques.
+This is where the real work happens. Your team builds, tests, and improves solutions.
 
-- **Difficulty:** 🔴 Advanced
-- **Training Time:** Minimal (mostly implementation)
-- **Best For:** NLP/LLM experts
-- **Quick Start:** Implement RAG system
+**Key Milestones:**
+- Baseline solution working locally
+- First submission completed
+- Performance metrics established
+- Iteration cycle in place
 
-👉 [Read NLP Guide](./CHALLENGES/nlp.md)
+**Documentation:**
+- [DEVELOPMENT.md](../DEVELOPMENT.md) — Development workflow and best practices
+- [ARCHITECTURE.md](../ARCHITECTURE.md) — Understanding the repository structure
+- [API.md](../API.md) — API contracts and specifications
+- [GIT_GUIDE.md](../GIT_GUIDE.md) — Coordinating work with Git
 
----
-
-### 🏁 Finals
-> **Integration • Multi-task • All ports**
-
-Combine AE, CV, and NLP into a unified system. Advanced integration and optimization.
-
-- **Difficulty:** 🔴 Advanced
-- **Prerequisites:** Complete at least 1-2 challenges first
-- **Best For:** System architects
-
-👉 [Read Finals Guide](./CHALLENGES/finals.md)
+**Time Investment:** Variable (most of competition time)
 
 ---
 
-## 📚 Documentation Map
+### Stage 4: Optimization & Polish (Week 3-4)
 
-### 🚀 **Getting Started**
+Time to squeeze every last point out of your solutions. This is the optimization phase.
 
-| 📄 | Topic | Time | Level |
-|---|-------|------|-------|
-| [QUICK_START.md](./QUICK_START.md) | 5-minute setup | 2 min | 🟢 Easy |
-| [SETUP.md](./SETUP.md) | Detailed environment | 10 min | 🟢 Easy |
-| [VERIFY.md](./VERIFY.md) | Validation checklist | 10 min | 🟢 Easy |
-| [CHALLENGES.md](./CHALLENGES.md) | All challenges | 10 min | 🟢 Easy |
+**Key Milestones:**
+- Performance improvements implemented
+- Multiple submission iterations completed
+- Team comparing against leaderboard
+- Final tuning in progress
 
-### 💻 **Development**
+**Documentation:**
+- [PERFORMANCE.md](../PERFORMANCE.md) — Optimization techniques and strategies
+- [SUBMISSION.md](../SUBMISSION.md) — How to submit your work
+- [DOCKER.md](../DOCKER.md) — Containerizing your solutions
 
-| 📄 | Topic | Time | Level |
-|---|-------|------|-------|
-| [DEVELOPMENT.md](./DEVELOPMENT.md) | Workflow & best practices | 15 min | 🟡 Medium |
-| [ARCHITECTURE.md](./ARCHITECTURE.md) | Repository structure | 10 min | 🟡 Medium |
-| [GIT_GUIDE.md](./GIT_GUIDE.md) | Git & submodules | 10 min | 🟡 Medium |
-
-### 🚢 **Deployment**
-
-| 📄 | Topic | Time | Level |
-|---|-------|------|-------|
-| [SUBMISSION.md](./SUBMISSION.md) | How to submit | 10 min | 🟡 Medium |
-| [DOCKER.md](./DOCKER.md) | Container deployment | 15 min | 🟡 Medium |
-| [API.md](./API.md) | API specifications | 20 min | 🟡 Medium |
-
-### ⚙️ **Advanced**
-
-| 📄 | Topic | Time | Level |
-|---|-------|------|-------|
-| [PERFORMANCE.md](./PERFORMANCE.md) | Optimization | 15 min | 🔴 Hard |
-| [TROUBLESHOOTING.md](./TROUBLESHOOTING.md) | Problem solving | Variable | 🔴 Hard |
-| [RESOURCES.md](./RESOURCES.md) | External links | 5 min | 🟢 Easy |
+**Time Investment:** 30-40 minutes for strategy, then ongoing
 
 ---
 
-## 🎓 Pick Your Path
+### Stage 5: Final Push & Submission (Week 4)
 
-### 🟢 I'm New Here
-```
-START → QUICK_START → SETUP → VERIFY → CHALLENGES → Development
-```
-**Time:** ~40 minutes to first code
+The final stretch. Your team makes the last optimizations and gets everything submitted before the deadline.
 
-### 🟡 I'm Experienced
-```
-START → CHALLENGES → Development → SUBMISSION
-```
-**Time:** ~20 minutes to first code
+**Key Milestones:**
+- Final submissions in place
+- All solutions tested and validated
+- Team tracking leaderboard positions
+- Lesson documentation for next time
 
-### 🔴 I'm an Expert
-```
-CHALLENGES → Code → SUBMISSION
-```
-**Time:** Immediate
+**Documentation:**
+- [SUBMISSION.md](../SUBMISSION.md) — Final submission process
+- [TROUBLESHOOTING.md](../TROUBLESHOOTING.md) — Quick problem resolution
+- [RESOURCES.md](../RESOURCES.md) — External references for last-minute help
+
+**Time Investment:** Varies
 
 ---
 
-## 🚀 Popular Starting Points
+## Team Workflow
 
-<table>
-<tr>
-<td width="25%" align="center">
-
-### ⚡ Fast Track
-[QUICK_START.md](./QUICK_START.md)
-
-5 minutes to running code
-
-</td>
-<td width="25%" align="center">
-
-### 🎯 Choose Challenge  
-[CHALLENGES.md](./CHALLENGES.md)
-
-Pick your focus area
-
-</td>
-<td width="25%" align="center">
-
-### 💻 Start Developing
-[DEVELOPMENT.md](./DEVELOPMENT.md)
-
-Best practices & workflow
-
-</td>
-<td width="25%" align="center">
-
-### 🆘 Get Help
-[TROUBLESHOOTING.md](./TROUBLESHOOTING.md)
-
-Solutions & answers
-
-</td>
-</tr>
-</table>
-
----
-
-## 📊 By The Numbers
-
-<div align="center">
-
-| Metric | Value |
-|--------|-------|
-| 📄 Documentation Files | **23** |
-| 📦 Total Size | **261 KB** |
-| 🕐 Reading Time (complete) | **~170 min** |
-| ⚡ Quick Start Time | **5 min** |
-| 💡 Code Examples | **40+** |
-| 🆘 Troubleshooting Tips | **100+** |
-| 🔗 External Resources | **50+** |
-
-</div>
-
----
-
-## 🎨 Documentation Features
-
-### ✨ Well-Organized
-- Clear categories and sections
-- Consistent formatting
-- Easy navigation
-- Cross-linked references
-
-### 📖 Comprehensive
-- From setup to submission
-- All challenges covered
-- Advanced topics included
-- Real-world examples
-
-### 🎯 Practical
-- Step-by-step guides
-- Copy-paste commands
-- Code examples
-- Common mistakes
-
-### 🆘 Supportive
-- Troubleshooting guide
-- FAQ sections
-- Error solutions
-- External resources
-
----
-
-## 🔗 Directory Structure
+### Typical Week Structure
 
 ```
-readme/
-├── README.md                    ← You are here
-├── _INDEX.md                    ← File index
-├── QUICK_START.md              ⚡ Start here (5 min)
-├── SETUP.md                    📦 Environment setup
-├── VERIFY.md                   ✓ Validation
-├── CHALLENGES.md               🎯 Pick a challenge
-│
-├── CHALLENGES/                 📁 Challenge guides
-│   ├── ae.md                   🤖 Agent Environment
-│   ├── cv.md                   👁️ Computer Vision
-│   ├── nlp.md                  📚 NLP
-│   └── finals.md               🏁 Finals
-│
-├── DEVELOPMENT.md              💻 How to develop
-├── ARCHITECTURE.md             🏗️ Repository structure
-├── SUBMISSION.md               🚢 How to submit
-├── DOCKER.md                   🐳 Docker deployment
-├── API.md                      🔌 API specs
-├── GIT_GUIDE.md                🔀 Git workflow
-├── PERFORMANCE.md              ⚡ Optimization
-├── TROUBLESHOOTING.md          🆘 Problem solving
-└── RESOURCES.md                🔗 External links
+Monday     → Challenge analysis & planning
+Tuesday    → Development & experimentation  
+Wednesday  → Testing & local validation
+Thursday   → Integration & submission prep
+Friday     → Optimization & performance tuning
+Weekend    → Reflection & iteration planning
 ```
 
----
+### Communication & Coordination
 
-## ⏱️ Time Investment
+**Use Git effectively:**
+- Feature branches for each improvement (`feature/ae-agent`, `feature/cv-model`)
+- Clear commit messages explaining changes
+- Regular status checks with `git log --oneline`
+- See [GIT_GUIDE.md](../GIT_GUIDE.md) for workflow
 
-| Stage | Time | Files |
-|-------|------|-------|
-| **Setup** | 15 min | QUICK_START, SETUP, VERIFY |
-| **Learning** | 20 min | CHALLENGES, CHALLENGES/* |
-| **Development** | 20 min | DEVELOPMENT, ARCHITECTURE |
-| **Submission** | 15 min | SUBMISSION, DOCKER |
-| **Optimization** | 30 min | PERFORMANCE, TROUBLESHOOTING |
-| **Total (optional)** | 100+ min | All |
-
-**Minimum required:** 30-40 minutes to first working code ⚡
-
----
-
-## 🎓 Learning Outcomes
-
-After following this documentation, you'll be able to:
-
-- ✅ Set up your TIL-26 environment correctly
-- ✅ Understand all 4 challenges deeply
-- ✅ Develop and test solutions locally
-- ✅ Build Docker containers for submission
-- ✅ Deploy and submit your work
-- ✅ Optimize for performance
-- ✅ Solve problems independently
-- ✅ Integrate multiple challenges
+**Track progress:**
+- Update team on submission status
+- Share performance metrics regularly
+- Celebrate improvements and milestones
+- Document lessons learned
 
 ---
 
-## 🌟 Pro Tips
+## Challenge Selection Strategy
 
-### 💡 Success Strategy
-1. **Read first** — Documentation is short and saves time
-2. **Start simple** — Get baseline working before optimization
-3. **Test locally** — Always test before submitting
-4. **Iterate fast** — Submit early, improve often
-5. **Check Discord** — Community can help solve issues
+Choose based on your team's strengths:
 
-### ⚡ Time Savers
-- Use QUICK_START.md for fastest path
-- Reference TROUBLESHOOTING.md for common issues
-- Check PERFORMANCE.md for optimization ideas
-- Search RESOURCES.md for external help
+### Agent Environment (AE)
+**Best for:** Teams with RL expertise, learning-focused approach  
+**Difficulty:** Beginner-friendly  
+**Time to first submission:** 4-6 hours  
+**Skills needed:** Python, basic deep learning  
 
-### 🎯 Pro Approach
-```
-Week 1: Get baseline working, submit
-Week 2: Improve score, submit update
-Week 3: Optimize, submit final version
-Week 4: Final refinements (if time permits)
-```
+### Computer Vision (CV)
+**Best for:** ML practitioners, production experience  
+**Difficulty:** Intermediate  
+**Time to first submission:** 6-8 hours  
+**Skills needed:** Python, PyTorch/TensorFlow, computer vision  
 
----
+### Natural Language Processing (NLP)
+**Best for:** LLM experts, cutting-edge interests  
+**Difficulty:** Advanced  
+**Time to first submission:** 6-8 hours  
+**Skills needed:** Python, transformers, retrieval systems  
 
-## 🔍 Search This Hub
-
-**Looking for something specific?**
-
-- **Setup issues?** → [TROUBLESHOOTING.md](./TROUBLESHOOTING.md)
-- **API format?** → [API.md](./API.md)
-- **Docker help?** → [DOCKER.md](./DOCKER.md)
-- **Git questions?** → [GIT_GUIDE.md](./GIT_GUIDE.md)
-- **Slow code?** → [PERFORMANCE.md](./PERFORMANCE.md)
-- **External links?** → [RESOURCES.md](./RESOURCES.md)
+### Finals Integration
+**Best for:** Ambitious teams, full-stack thinking  
+**Difficulty:** Very Advanced  
+**Prerequisites:** Completion of at least 1-2 other challenges first  
+**Skills needed:** System design, API integration, DevOps  
 
 ---
 
-## 🤝 Community
+## Essential Documentation by Phase
 
-### Get Help
-- 💬 **Discord:** #hackoverflow channel
-- 📖 **Wiki:** https://github.com/til-ai/til-26/wiki
-- 📊 **Leaderboard:** Strategist's Handbook (Notion)
+### Getting Started (First 30 Minutes)
 
-### Learn More
-- 📚 **Full specs:** Competition Wiki
-- 🎓 **Curriculum:** Google Drive (shared)
-- 🌐 **Resources:** See [RESOURCES.md](./RESOURCES.md)
+Your team's first hour should include:
+
+1. Read: [QUICK_START.md](../QUICK_START.md)
+2. Follow: [SETUP.md](../SETUP.md)
+3. Validate: [VERIFY.md](../VERIFY.md)
+4. Discuss: [CHALLENGES.md](../CHALLENGES.md)
+
+### Development (Primary Phase)
+
+Your team's main resources:
+
+- [DEVELOPMENT.md](../DEVELOPMENT.md) — Day-to-day workflow
+- [ARCHITECTURE.md](../ARCHITECTURE.md) — Understanding the codebase
+- Challenge-specific guides in CHALLENGES/
+- [API.md](../API.md) — API contracts
+
+### Optimization (Ongoing)
+
+To improve your score:
+
+- [PERFORMANCE.md](../PERFORMANCE.md) — Optimization strategies
+- Challenge-specific optimization sections
+- [RESOURCES.md](../RESOURCES.md) — External techniques and papers
+
+### Submission & Support
+
+When you're ready to submit or need help:
+
+- [SUBMISSION.md](../SUBMISSION.md) — Submission checklist
+- [DOCKER.md](../DOCKER.md) — Container deployment
+- [TROUBLESHOOTING.md](../TROUBLESHOOTING.md) — Problem solving
 
 ---
 
-## ✅ Checklist Before You Start
+## Team Success Metrics
 
-- [ ] Read this README
-- [ ] Pick a quick start guide
-- [ ] Set up environment
-- [ ] Validate setup
-- [ ] Choose a challenge
-- [ ] Read challenge guide
-- [ ] Start coding!
+Track your team's progress with these indicators:
+
+### Early Stage (Week 1-2)
+- Environment properly configured (100% of team)
+- At least one submission completed
+- Baseline score established
+- Team velocity in commits/PRs
+
+### Mid Stage (Week 2-3)
+- Multiple iterations submitted
+- Performance improving each week
+- Clear optimization strategy in place
+- Team communication smooth
+
+### Late Stage (Week 3-4)
+- Final optimizations yielding gains
+- Leaderboard position improving
+- Team focused and executing
+- Preparation for final push complete
 
 ---
 
-<div align="center">
+## Coordination Checklist
 
-### 🚀 Ready to Get Started?
+Use this to keep your team aligned:
 
-**[Go to QUICK_START.md →](./QUICK_START.md)**
-
-*or choose your path above*
+- [ ] All team members have environment set up
+- [ ] Team has selected challenge(s)
+- [ ] Development roles assigned
+- [ ] Submission schedule planned
+- [ ] Git workflow established
+- [ ] Communication channels clear
+- [ ] Regular sync meetings scheduled
+- [ ] Progress tracking system in place
+- [ ] Optimization strategy defined
+- [ ] Final submission plan documented
 
 ---
 
-**Made with ❤️ for TIL-26 participants**
+## The Files Your Team Will Use Most
 
-Generated: 2026-05-19 | Last Updated: 2026-05-19
+| File | When | Why |
+|------|------|-----|
+| [QUICK_START.md](../QUICK_START.md) | Week 1 | Initial setup |
+| [CHALLENGES.md](../CHALLENGES.md) | Week 1 | Choose focus |
+| [DEVELOPMENT.md](../DEVELOPMENT.md) | Week 2-4 | Daily reference |
+| [API.md](../API.md) | Week 2-4 | Implementation details |
+| [PERFORMANCE.md](../PERFORMANCE.md) | Week 3-4 | Score improvement |
+| [SUBMISSION.md](../SUBMISSION.md) | Week 4 | Final checklist |
+| [TROUBLESHOOTING.md](../TROUBLESHOOTING.md) | Ongoing | Problem resolution |
 
-</div>
+---
+
+## Competition Timeline
+
+### Week 1: Kickoff
+- [ ] Team assembled
+- [ ] Environments configured
+- [ ] Challenge selected
+- [ ] Strategy discussed
+
+### Week 2: Development
+- [ ] Initial solution working
+- [ ] First submission made
+- [ ] Performance baseline established
+- [ ] Iteration cycle begun
+
+### Week 3: Optimization
+- [ ] Multiple iterations submitted
+- [ ] Performance improving
+- [ ] Team in rhythm
+- [ ] Leaderboard tracking
+
+### Week 4: Final Push
+- [ ] Final optimizations in place
+- [ ] Last submissions queued
+- [ ] Team focused
+- [ ] Prepared for deadline
+
+---
+
+## Getting Help
+
+When your team gets stuck:
+
+**Technical Issues**
+- First check: [TROUBLESHOOTING.md](../TROUBLESHOOTING.md)
+- Then check: [GIT_GUIDE.md](../GIT_GUIDE.md) for version control issues
+- Finally: [DOCKER.md](../DOCKER.md) for deployment issues
+
+**Challenge Questions**
+- Review: Challenge-specific guide (CHALLENGES/*)
+- Check: Main challenge README in root directory
+- See: [API.md](../API.md) for interface specifications
+
+**External Help**
+- Discord: #hackoverflow channel
+- Wiki: https://github.com/til-ai/til-26/wiki
+- Leaderboard: Strategist's Handbook (Notion)
+
+**When You're Blocked**
+- Document what you've tried
+- Share error messages with team
+- Check Discord for others facing same issue
+- Reference [TROUBLESHOOTING.md](../TROUBLESHOOTING.md)
+
+---
+
+## Next Steps for Your Team
+
+1. **Today:** Read this document, run QUICK_START.md
+2. **This Week:** Complete SETUP.md, choose challenge, review strategy
+3. **Ongoing:** Use DEVELOPMENT.md as daily reference
+4. **Week 3:** Start PERFORMANCE.md optimizations
+5. **Week 4:** Follow SUBMISSION.md checklist
+
+---
+
+## Quick Navigation
+
+- **Getting Started:** [QUICK_START.md](../QUICK_START.md)
+- **Setup:** [SETUP.md](../SETUP.md)
+- **Challenge Info:** [CHALLENGES.md](../CHALLENGES.md)
+- **Development:** [DEVELOPMENT.md](../DEVELOPMENT.md)
+- **Need Help:** [TROUBLESHOOTING.md](../TROUBLESHOOTING.md)
+- **All Files:** [_INDEX.md](./_INDEX.md)
+
+---
+
+**Your team has everything needed to succeed. Focus on execution.**
+
+Competition dates | Team coordination | Clear strategy = Victory
+
+*Generated: 2026-05-19*
